@@ -20,8 +20,10 @@ def update_status
       }
    }
 
+binding.pry
 epic_tragedy[:montague][:hero][:status] = "dead"
 epic_tragedy[:montague][:heroine][:status] = "dead"
+binding.pry
 
 
 
